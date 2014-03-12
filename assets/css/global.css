@@ -1,62 +1,305 @@
-/*
-Syntax error: Undefined variable: "$sans-font".
-        on line 15 of /Users/peterderuijter/Code/Uno/assets/scss/global.scss
+/* line 41, ../scss/grid.scss */
+body {
+  width: 100%;
+  *zoom: 1;
+}
+/* line 27, ../scss/grid.scss */
+body:before, body:after {
+  content: "";
+  display: table;
+}
+/* line 31, ../scss/grid.scss */
+body:after {
+  clear: both;
+}
 
-Backtrace:
-/Users/peterderuijter/Code/Uno/assets/scss/global.scss:15
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/script/variable.rb:49:in `_perform'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/script/node.rb:40:in `perform'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:298:in `visit_prop'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/base.rb:37:in `visit'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:100:in `visit'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/base.rb:53:in `map'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/base.rb:53:in `visit_children'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/base.rb:37:in `block in visit'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:320:in `visit_rule'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/base.rb:37:in `visit'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:100:in `visit'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/base.rb:53:in `map'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/base.rb:53:in `visit_children'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/base.rb:37:in `block in visit'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:128:in `visit_root'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/base.rb:37:in `visit'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:100:in `visit'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:7:in `visit'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/root_node.rb:20:in `render'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/engine.rb:315:in `_render'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/engine.rb:262:in `render'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/compass-0.12.3/lib/compass/compiler.rb:140:in `block (2 levels) in compile'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/compass-0.12.3/lib/compass/compiler.rb:126:in `timed'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/compass-0.12.3/lib/compass/compiler.rb:139:in `block in compile'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/compass-0.12.3/lib/compass/logger.rb:45:in `red'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/compass-0.12.3/lib/compass/compiler.rb:138:in `compile'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/compass-0.12.3/lib/compass/compiler.rb:118:in `compile_if_required'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/compass-0.12.3/lib/compass/compiler.rb:103:in `block (2 levels) in run'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/compass-0.12.3/lib/compass/compiler.rb:101:in `each'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/compass-0.12.3/lib/compass/compiler.rb:101:in `block in run'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/compass-0.12.3/lib/compass/compiler.rb:126:in `timed'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/compass-0.12.3/lib/compass/compiler.rb:100:in `run'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/compass-0.12.3/lib/compass/commands/watch_project.rb:147:in `recompile'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/compass-0.12.3/lib/compass/commands/watch_project.rb:68:in `perform'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/compass-0.12.3/lib/compass/commands/base.rb:18:in `execute'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/compass-0.12.3/lib/compass/commands/project_base.rb:19:in `execute'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/compass-0.12.3/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/compass-0.12.3/lib/compass/exec/sub_command_ui.rb:15:in `run!'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/compass-0.12.3/bin/compass:30:in `block in <top (required)>'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/compass-0.12.3/bin/compass:44:in `call'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/compass-0.12.3/bin/compass:44:in `<top (required)>'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/bin/compass:23:in `load'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/bin/compass:23:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Syntax error: Undefined variable: \"$sans-font\".\A         on line 15 of /Users/peterderuijter/Code/Uno/assets/scss/global.scss"; }
+/* line 8, ../scss/global.scss */
+html, body {
+  height: 100%;
+}
+
+/* line 12, ../scss/global.scss */
+html {
+  height: 100%;
+  max-height: 100%;
+}
+
+/* line 17, ../scss/global.scss */
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 1em;
+  color: #666666;
+}
+
+/* line 23, ../scss/global.scss */
+::selection {
+  background: #fae3df;
+}
+
+/* line 27, ../scss/global.scss */
+::-moz-selection {
+  background: #fae3df;
+}
+
+/* line 35, ../scss/global.scss */
+a {
+  text-decoration: none;
+  color: #e25440;
+}
+/* line 39, ../scss/global.scss */
+a:hover {
+  color: #b9301c;
+  -o-transition: .5s;
+  -ms-transition: .5s;
+  -moz-transition: .5s;
+  -webkit-transition: .5s;
+}
+
+/* line 54, ../scss/global.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h5 {
+  margin-top: .8em;
+  margin-bottom: .4em;
+  font-family: "Roboto Slab", serif;
+  font-weight: lighter;
+  color: #333333;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* line 63, ../scss/global.scss */
+h1 {
+  margin-top: 0;
+  font-size: 3.2em;
+  line-height: 1.2em;
+  letter-spacing: .05em;
+}
+
+/* line 70, ../scss/global.scss */
+h2 {
+  font-size: 2.2em;
+}
+
+/* line 74, ../scss/global.scss */
+h3 {
+  font-size: 1.8em;
+}
+
+/* line 78, ../scss/global.scss */
+h4 {
+  font-size: 1.4em;
+}
+
+/* line 82, ../scss/global.scss */
+h4 {
+  font-size: 1.2em;
+}
+
+/* line 86, ../scss/global.scss */
+h5 {
+  font-size: 1em;
+}
+
+/* line 90, ../scss/global.scss */
+p {
+  margin-bottom: 1.3em;
+  line-height: 1.7em;
+}
+
+/* line 95, ../scss/global.scss */
+strong {
+  font-weight: bold;
+}
+
+/* line 99, ../scss/global.scss */
+em {
+  font-style: italic;
+}
+
+/* line 103, ../scss/global.scss */
+blockquote {
+  margin: 1em 0;
+  padding: 2em 0;
+  background: #f8f8f8;
+  border: 1px solid #eeeeee;
+  border-radius: 3px;
+  font-family: "Roboto Slab", serif;
+  font-weight: lighter;
+  font-style: italic;
+  font-size: 1.3em;
+  text-align: center;
+}
+/* line 117, ../scss/global.scss */
+blockquote p:last-child {
+  margin-bottom: 0;
+}
+
+/* line 129, ../scss/global.scss */
+ol, ul {
+  margin: 0 0 1.3em 2.5em;
+}
+/* line 132, ../scss/global.scss */
+ol li, ul li {
+  margin: 0 0 .2em 0;
+  line-height: 1.6em;
+}
+/* line 137, ../scss/global.scss */
+ol ol, ol ul, ul ol, ul ul {
+  margin: .1em 0 .2em 2em;
+}
+
+/* line 143, ../scss/global.scss */
+ol {
+  list-style-type: decimal;
+}
+
+/* line 147, ../scss/global.scss */
+ul {
+  list-style-type: disc;
+}
+
+/* line 151, ../scss/global.scss */
+code {
+  padding: .1em .4em;
+  background: #e8f2fb;
+  border: 1px solid #c9e1f6;
+  border-radius: 3px;
+  font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+  font-size: .85em;
+}
+
+/* line 160, ../scss/global.scss */
+pre {
+  margin-bottom: 1.3em;
+  padding: 1em 2.5%;
+  background: #e8f2fb;
+  border: 1px solid #c9e1f6;
+  border-radius: 3px;
+  font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+  font-size: .9em;
+  font-weight: normal;
+  line-height: 1.3em;
+}
+/* line 171, ../scss/global.scss */
+pre code {
+  padding: 0;
+  background: none;
+  border: none;
+}
+
+/* line 182, ../scss/global.scss */
+.date,
+.time,
+.author,
+.tags {
+  font-size: .8em;
+  color: #c7c7c7;
+}
+
+/* line 187, ../scss/global.scss */
+.excerpt {
+  margin: 0;
+  font-size: .9em;
+  color: #999999;
+}
+
+/* line 193, ../scss/global.scss */
+.intro {
+  font-family: "Roboto Slab", serif;
+  font-size: 1.2em;
+  font-weight: lighter;
+  color: #999999;
+}
+
+/* line 200, ../scss/global.scss */
+.block-heading {
+  display: inline;
+  float: left;
+  width: 940px;
+  margin: 0 10px;
+  position: relative;
+  bottom: -15px;
+  font-size: .8em;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* line 211, ../scss/global.scss */
+.label {
+  position: relative;
+  display: inline-block;
+  padding: 8px 18px 9px 18px;
+  background: #e25440;
+  border-radius: 3px;
+  text-align: center;
+  color: #FFF;
+}
+
+/* line 225, ../scss/global.scss */
+.container {
+  position: relative;
+  z-index: 500;
+  width: 940px;
+  margin: 0 auto;
+}
+
+/* line 232, ../scss/global.scss */
+.content-wrapper {
+  z-index: 800;
+  width: 60%;
+  max-width: 800px;
+  margin-left: 40%;
+}
+
+/* line 239, ../scss/global.scss */
+.content-wrapper__inner {
+  margin: 0 10%;
+  padding: 50px 0;
+}
+
+/* line 244, ../scss/global.scss */
+.footer {
+  display: block;
+  padding: 2em 0 0 0;
+  border-top: 2px solid #dddddd;
+  font-size: .7em;
+  color: #b3b3b3;
+}
+
+/* line 252, ../scss/global.scss */
+.footer__copyright {
+  display: block;
+  margin-bottom: .7em;
+}
+/* line 256, ../scss/global.scss */
+.footer__copyright a {
+  color: #a6a6a6;
+  text-decoration: underline;
+}
+/* line 260, ../scss/global.scss */
+.footer__copyright a:hover {
+  color: #b9301c;
+}
+
+/* line 273, ../scss/global.scss */
+.avatar,
+.logo {
+  border-radius: 50%;
+  border: 3px solid #FFF;
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+/* line 283, ../scss/global.scss */
+hr {
+  border: none;
+}
+
+/* line 291, ../scss/global.scss */
+.hidden {
+  display: none !important;
+}

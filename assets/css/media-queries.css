@@ -1,76 +1,191 @@
-/*
-Syntax error: Undefined variable: "$gray-darkest".
-        on line 121 of /Users/peterderuijter/Code/Uno/assets/scss/media-queries.scss
+@media all and (min-width: 1300px) {
+  /* line 8, ../scss/media-queries.scss */
+  .content-wrapper {
+    margin-left: 530px;
+  }
+}
+@media all and (max-width: 1100px) {
+  /* line 20, ../scss/media-queries.scss */
+  .panel-cover__logo {
+    width: 70px;
+  }
 
-Backtrace:
-/Users/peterderuijter/Code/Uno/assets/scss/media-queries.scss:121
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/script/variable.rb:49:in `_perform'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/script/node.rb:40:in `perform'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/script/funcall.rb:99:in `block in _perform'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/script/funcall.rb:99:in `map'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/script/funcall.rb:99:in `_perform'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/script/node.rb:40:in `perform'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:298:in `visit_prop'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/base.rb:37:in `visit'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:100:in `visit'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/base.rb:53:in `map'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/base.rb:53:in `visit_children'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/base.rb:37:in `block in visit'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:320:in `visit_rule'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/base.rb:37:in `visit'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:100:in `visit'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/base.rb:53:in `map'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/base.rb:53:in `visit_children'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/base.rb:37:in `block in visit'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:362:in `visit_media'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/base.rb:37:in `visit'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:100:in `visit'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/base.rb:53:in `map'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/base.rb:53:in `visit_children'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/base.rb:37:in `block in visit'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:128:in `visit_root'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/base.rb:37:in `visit'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:100:in `visit'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:7:in `visit'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/root_node.rb:20:in `render'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/engine.rb:315:in `_render'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/engine.rb:262:in `render'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/compass-0.12.3/lib/compass/compiler.rb:140:in `block (2 levels) in compile'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/compass-0.12.3/lib/compass/compiler.rb:126:in `timed'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/compass-0.12.3/lib/compass/compiler.rb:139:in `block in compile'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/compass-0.12.3/lib/compass/logger.rb:45:in `red'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/compass-0.12.3/lib/compass/compiler.rb:138:in `compile'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/compass-0.12.3/lib/compass/compiler.rb:118:in `compile_if_required'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/compass-0.12.3/lib/compass/compiler.rb:103:in `block (2 levels) in run'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/compass-0.12.3/lib/compass/compiler.rb:101:in `each'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/compass-0.12.3/lib/compass/compiler.rb:101:in `block in run'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/compass-0.12.3/lib/compass/compiler.rb:126:in `timed'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/compass-0.12.3/lib/compass/compiler.rb:100:in `run'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/compass-0.12.3/lib/compass/commands/watch_project.rb:147:in `recompile'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/compass-0.12.3/lib/compass/commands/watch_project.rb:68:in `perform'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/compass-0.12.3/lib/compass/commands/base.rb:18:in `execute'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/compass-0.12.3/lib/compass/commands/project_base.rb:19:in `execute'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/compass-0.12.3/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/compass-0.12.3/lib/compass/exec/sub_command_ui.rb:15:in `run!'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/compass-0.12.3/bin/compass:30:in `block in <top (required)>'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/compass-0.12.3/bin/compass:44:in `call'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/compass-0.12.3/bin/compass:44:in `<top (required)>'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/bin/compass:23:in `load'
-/Users/peterderuijter/.rbenv/versions/2.0.0-p353/bin/compass:23:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Syntax error: Undefined variable: \"$gray-darkest\".\A         on line 121 of /Users/peterderuijter/Code/Uno/assets/scss/media-queries.scss"; }
+  /* line 24, ../scss/media-queries.scss */
+  .panel-title {
+    font-size: 2em;
+  }
+
+  /* line 28, ../scss/media-queries.scss */
+  .panel-subtitle {
+    font-size: 1em;
+  }
+
+  /* line 32, ../scss/media-queries.scss */
+  .panel-cover__description {
+    margin: 0 10px;
+    font-size: .9em;
+  }
+
+  /* line 37, ../scss/media-queries.scss */
+  .navigation--social {
+    margin-top: 5px;
+    margin-left: 0;
+  }
+}
+@media all and (max-width: 960px) {
+  /* line 50, ../scss/media-queries.scss */
+  .btn-mobile-menu {
+    display: block;
+  }
+
+  /* line 54, ../scss/media-queries.scss */
+  .panel-main {
+    display: table;
+    position: relative;
+  }
+
+  /* line 59, ../scss/media-queries.scss */
+  .panel-cover--collapsed {
+    width: 100%;
+    max-width: none;
+  }
+
+  /* line 64, ../scss/media-queries.scss */
+  .panel-main__inner {
+    display: table-cell;
+    padding: 60px 10%;
+  }
+
+  /* line 69, ../scss/media-queries.scss */
+  .panel-cover__description {
+    display: block;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  /* line 75, ../scss/media-queries.scss */
+  .panel-cover__divider--secondary {
+    display: none;
+  }
+
+  /* line 79, ../scss/media-queries.scss */
+  .panel-cover {
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+  }
+  /* line 84, ../scss/media-queries.scss */
+  .panel-cover.panel-cover--collapsed {
+    display: block;
+    position: relative;
+    height: auto;
+    padding: 0;
+    background-position: center center;
+  }
+  /* line 91, ../scss/media-queries.scss */
+  .panel-cover.panel-cover--collapsed .panel-main__inner {
+    display: block;
+    padding: 70px 0 30px 0;
+  }
+  /* line 96, ../scss/media-queries.scss */
+  .panel-cover.panel-cover--collapsed .panel-cover__logo {
+    width: 60px;
+    border-width: 2px;
+  }
+  /* line 101, ../scss/media-queries.scss */
+  .panel-cover.panel-cover--collapsed .panel-cover__description {
+    display: none;
+  }
+  /* line 105, ../scss/media-queries.scss */
+  .panel-cover.panel-cover--collapsed .panel-cover__divider {
+    display: none;
+    margin: 1em auto;
+  }
+
+  /* line 114, ../scss/media-queries.scss */
+  .navigation-wrapper {
+    display: none;
+    position: fixed;
+    top: 42px;
+    right: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 0;
+    background: rgba(51, 51, 51, 0.98);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  }
+  /* line 125, ../scss/media-queries.scss */
+  .navigation-wrapper.visible {
+    display: block;
+  }
+
+  /* line 131, ../scss/media-queries.scss */
+  .cover-navigation {
+    display: block;
+    position: relative;
+    float: left;
+    clear: left;
+    width: 100%;
+  }
+  /* line 138, ../scss/media-queries.scss */
+  .cover-navigation .navigation {
+    display: block;
+    width: 100%;
+  }
+  /* line 142, ../scss/media-queries.scss */
+  .cover-navigation .navigation li {
+    width: 80%;
+    margin-bottom: .4em;
+  }
+  /* line 149, ../scss/media-queries.scss */
+  .cover-navigation.navigation--social {
+    padding-top: 5px;
+  }
+  /* line 154, ../scss/media-queries.scss */
+  .cover-navigation.navigation--social .navigation li {
+    display: inline-block;
+    width: 25.8%;
+  }
+
+  /* line 165, ../scss/media-queries.scss */
+  .content-wrapper {
+    width: 80%;
+    max-width: none;
+    margin: 0 auto;
+  }
+
+  /* line 171, ../scss/media-queries.scss */
+  .content-wrapper__inner {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  /* line 176, ../scss/media-queries.scss */
+  .navigation__item {
+    width: 100%;
+    margin: 0 0 .4em 0;
+  }
+}
+@media all and (max-width: 340px) {
+  /* line 189, ../scss/media-queries.scss */
+  .panel-main__inner {
+    padding: 0 5%;
+  }
+
+  /* line 193, ../scss/media-queries.scss */
+  .panel-title {
+    margin-bottom: .1em;
+    font-size: 1.5em;
+  }
+
+  /* line 198, ../scss/media-queries.scss */
+  .panel-subtitle {
+    font-size: .9em;
+  }
+
+  /* line 202, ../scss/media-queries.scss */
+  .btn {
+    display: block;
+    margin-bottom: .4em;
+  }
+}
